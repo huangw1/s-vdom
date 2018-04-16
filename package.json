@@ -2,7 +2,8 @@
   "name": "vdom",
   "version": "0.0.1",
   "scripts": {
-    "dev": "webpack-dev-server --inline --progress --hot --config webpack.dev.js"
+    "dev": "webpack-dev-server --inline --progress --hot --config webpack.dev.js",
+    "build": "webpack --config webpack.pro.js"
   },
   "author": "huangw1",
   "license": "MIT",
@@ -10,6 +11,7 @@
     "babel-core": "^6.26.0",
     "babel-loader": "^7.0.0",
     "html-webpack-plugin": "^3.2.0",
+    "uglifyjs-webpack-plugin": "^1.2.4",
     "webpack": "^4.5.0",
     "webpack-cli": "^2.0.14",
     "webpack-dev-server": "^3.1.3",
