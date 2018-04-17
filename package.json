@@ -1,5 +1,5 @@
 {
-  "name": "vdom",
+  "name": "s-vdom",
   "version": "0.0.1",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --hot --config webpack.dev.js",

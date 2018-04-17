@@ -1,5 +1,5 @@
-# vdom
-Virtual Dom.
+# s-vdom
+Simple Virtual Dom.
 
 ```js
 npm run dev
