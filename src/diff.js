@@ -33,6 +33,7 @@ const diffProps = (oldNode, newNode) => {
 
 const diffChildren = (oldChildren, newChildren, index, patches, currentPatch) => {
 	let prevNode = null
+	// patch 位置索引
 	let currentIndex = index
 	oldChildren.forEach((child, index) => {
 		const newChild = newChildren[index]
