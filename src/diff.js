@@ -12,7 +12,7 @@ const diffProps = (oldNode, newNode) => {
 	const propsPatches = {}
 
 	Object.keys(oldProps).forEach((key) => {
-		if(newProps[key] != oldNode[key]) {
+		if(newProps[key] != oldProps[key]) {
 			propsPatches[key] = newProps[key];
 			index++
 		}
